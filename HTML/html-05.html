@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<title>HTML-05</title>
+
+ 
+<style>
+    table,tr,td,th {
+        border: 2px solid blue;
+        text-align: center;
+        border-collapse: collapse;
+
+    }
+
+
+</style>
+
+</head>
+
+<body>
+
+    <!--Tables-->
+
+    <h3>Tables</h3>
+
+    <table style="width: 50%; "> <!-- start of a table-->
+
+        <!--table body -->
+        <tr> <!--table row-->
+            <th> <!--table heading-->
+                Countries
+            </th>
+            
+            <th>
+                State
+            </th>
+
+            <th>
+                Population
+
+            </th>
+        </tr>
+
+        <!--Table head-->
+
+        <tr>
+
+            <td> <!--table data-->
+                India
+            </td>
+            <td> 
+                Maharashtra
+            </td>
+            <td> 
+                25,202
+            </td>
+
+        </tr>
+
+        <tr>
+        <td> <!--table data-->
+            Australia
+
+         </td>
+         <td>
+            sydney
+
+        </td>
+        
+        <td> <!--table data-->
+          18,500
+
+        </td>
+        </tr>
+            <!--table foot-->
+        <tr>
+
+            <td> 
+                2
+
+            </td>
+
+            <td> <!--table data-->
+                2
+
+            </td>
+            
+            <td> <!--table data-->
+                2
+
+            </td>
+        </tr>
+
+</table>
+
+<!-- 
+    Merging of cells :
+        -Rows
+            -Rowspan -> Merging number of row's cells
+        -Columns
+            Colspan ->  Merging number of column's cells
+
+-->
+
+<h4>Rowspan Example</h4>
+<table style="width:50%;">
+
+    <tbody>
+
+        <tr>
+            <td> Value</td>
+            <td> Value</td>
+            <td rowspan="2"> Value</td>
+        </tr>
+
+        <tr>
+            <td> Value</td>
+            <td> Value</td>
+            
+        </tr>
+
+    </tbody>
+</table>
+
+<hr>
+
+<h4>Colspan Example</h4>
+
+<table style="width:50%;">
+
+    <tbody>
+
+        <tr>
+            <td> Value</td>
+            <td> Value</td>
+            <td> Value</td>
+        </tr>
+
+        <tr>
+            <td> Value</td>
+            <td> Value</td>
+            <td> Value</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Value</td><!--merging 2 columns cells-->
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+
+
+
+
+</table>
+
+
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!-- Color Code-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><!--
+    Colors
+        -Colors Names
+            -They are pre-defined color names of web.
+            -standard color name.
+
+        -RGB Values
+            -Three light sources -RED< GREEN< BLUE.
+            -The value for each color shows the intensity.
+            -Range for 0 t0 255 value for each color.
+            -Totle color available
+                256 + 256 + 256 =16777216 possible colors
+
+        -RGBA values
+            -Similar to EGB with an Alpha value
+            -Alpha value helps in bring the transaparancy in the color
+            -Alpha value is ranged in between 0.0 to 1.0
+            -Where 1.0 is started to be solid color
+            -Where 0.0 is started to be Transparant color
+    
+    
+    
+    -->
+    <p style ="color: orange"> This is a Orage color</p>
+    <p style ="color: rgb(0 ,255 ,0)"> This is a  color</p>
+    <p style ="color: rgb(255,0,0)"> This is a  color</p>
+    <p style ="color: rgb(0,0,255)"> This is a  color</p>
+    <p style ="color: orange"> This is a  color</p>
+    <p style ="color: rgba(0,0,255, 0.5)"> This is a  color</p>
+
+
+
+<!--
+    Hex Values
+        -Very much similar to RGB values having the same concept of light sources.
+        -It uses Hexa decimal values for representation
+        Syntax:
+            -Defining the hexa values for representation
+            Values will be for RED GREEN BLUE colors
+            Each color will be shown with a pair of digits
+            
+            Red -00
+            Green - 00
+            Blue - 00
+
+            #000000 -Black
+            #ffffff - White
+1 2 3 4 5 6 7 8 9 a b c d e f
+
+
+-HCL Values (hslpicher .com)
+    -Started for HUE , SATURATION, LIGHTNESS
+    -HUE - Represent the color shade  in a range of values 0 to 300
+    -Sturation - Represent a perticular color shade , range from 0 to 100 in percentage
+    -Lightness - Represent the color  to be light or dark , ranges from 0 to 100 in percentage
+
+
+-HSLA Values
+    -Similar to HSL with an Alpha values
+    -Alpha value helps in bring the transprancy in the color 
+    -Alpha value is ranged in between 00 to 1.0
+    -Where 1.0 is started to be solid color
+    -Where 0.0 is started to be Transparant color
+    
+-->
+
+<p style= "color: orange"> Orange</p>
+<p style="color: hsl(320, 81%, 51%) ">hello</p>
+<p style="color: hsla(360, 74%, 51%, 0.0) "> helloooooo</p>
+
+<!--
+    -A div tag is a container which can store multiple HTML elements.
+    -Also known as division tags.
+    -Supports nesting in HTML.
+    -It is a generic block level elements.
+        -It takes the whole row of the page.
+        -It allows next new tag to sit on the new row only.
+        -It accept width and height customization.
+        
+-->
+<div style="background-color: darkorange;"> Block - 1 </div>
+<div style="background-color: rgb(46,29, 176);"> Block - 2 </div>
+<div style="background-color: rgb(184,219, 28);"> Block - 3 </div>
+
+<!--
+    -A span tag is a container which can store only text values.
+    -Does not suuports nesting in HTML.
+    -It is a generic inline elements.
+        -It takes the neccessary content part only.
+        -It allows a new next tags to sit next to it , if space is available
+        -Cannot customize the width and height of the element.
+
+-->
+
+<span style="background-color: lightseagreen;"> Block - 01 </span>
+    <span style="background-color: rgb(117,178,32);"> Block - 02 </span>
+        <span style="background-color: rgb(181,130,35);"> Block - 03 </span>
+
+
+
+
+</body>
+</html>
